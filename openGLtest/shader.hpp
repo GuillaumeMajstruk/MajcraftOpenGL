@@ -11,7 +11,8 @@
 #define GL_SILENCE_DEPRECATION
 #include <OpenGL/gl3.h>
 #else
-#include <GL/gl3.h>
+    #define GLEW_STATIC
+    #include <GL/glew.h>
 #endif
 #include "Librairies/glm/glm.hpp"
 class Shader

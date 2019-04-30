@@ -1,0 +1,8 @@
+C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DBOOST_ROOT=C:\boost -G "CodeBlocks - MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2
+-- Boost version: 1.70.0
+-- It works!
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using Win32 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug

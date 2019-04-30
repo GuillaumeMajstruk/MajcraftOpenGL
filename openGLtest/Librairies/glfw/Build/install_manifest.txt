@@ -1,0 +1,9 @@
+C:/Users/m416099/Documents/GLFW/include/GLFW/glfw3.h
+C:/Users/m416099/Documents/GLFW/include/GLFW/glfw3native.h
+C:/Users/m416099/Documents/GLFW/lib/cmake/glfw3/glfw3Config.cmake
+C:/Users/m416099/Documents/GLFW/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+C:/Users/m416099/Documents/GLFW/lib/cmake/glfw3/glfw3Targets.cmake
+C:/Users/m416099/Documents/GLFW/lib/cmake/glfw3/glfw3Targets-noconfig.cmake
+C:/Users/m416099/Documents/GLFW/lib/pkgconfig/glfw3.pc
+C:/Users/m416099/Documents/GLFW/lib/libglfw3dll.a
+C:/Users/m416099/Documents/GLFW/bin/glfw3.dll

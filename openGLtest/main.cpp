@@ -1,3 +1,9 @@
+#ifdef __APPLE__
+    #include <OpenGL/gl3.h>
+#else
+    #define GLEW_STATIC
+    #include <GL/glew.h>
+#endif
 #include <iostream>
 #include <GLFW/glfw3.h>
 #include "Librairies/glm/glm.hpp"
@@ -5,8 +11,7 @@
 #include "Librairies/glm/gtc/matrix_transform.hpp"
 #include <string>
 #include "shader.hpp"
-#include <OpenGL/gl3.h>
-#include "stb_image.hpp"
+#include "stb_image.h"
 #include "ObjLoader.h"
 
 using namespace std;
@@ -42,7 +47,7 @@ public:
 #ifdef __APPLE__
         glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
-        
+
         if (!(m_window = glfwCreateWindow(env.m_width, env.m_height, name.c_str(), nullptr, nullptr)))
         {
             cout << "Failed to create GLFW window\n" << endl;
@@ -51,6 +56,9 @@ public:
         }
         glfwMakeContextCurrent(this->m_window);
         glfwSetFramebufferSizeCallback(this->m_window, framebuffer_size_callback);
+#ifndef __APPLE__
+        glewInit();
+#endif
     }
 
     GLFWwindow  *getWindow() const { return (this->m_window); }
@@ -94,7 +102,11 @@ public:
         glBindVertexArray(0);
         
         int w, h, chan;
+#ifdef __APPLE__
         unsigned char   *texture_data = stbi_load("/Users/guillaume/Desktop/openGLtest/openGLtest/crate.jpg", &w, &h, &chan, 0);
+#else
+        unsigned char *texture_data = stbi_load("./crate.jpg", &w, &h, &chan, 0);
+#endif
         if (!texture_data)
         {
             cout << "ERROR LOADING TEXTURE FILE" << endl;
@@ -128,14 +140,14 @@ public:
 
 int main(int argc, char **argv)
 {
-    Env *env = new Env(800, 600);
+    Env *env = new Env(1000, 1000);
     Window *window = new Window("Majcraft", *env);
     Shader *shader = new Shader(
             "./Shaders/cubeVertex.vs",
             "./Shaders/cubeFragment.fs"
             );
     glEnable(GL_DEPTH_TEST);
-    Object *o = new Object("mycube2");
+    Object *o = new Object("monkey2");
     
     glm::mat4 view = glm::mat4(1.0f);
     view = glm::translate(view, glm::vec3(0.0f, 0.0f, -10.0f));
@@ -155,7 +167,7 @@ int main(int argc, char **argv)
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         glm::mat4 model = glm::mat4(1.0f);
-        model = glm::rotate(model, (float)glfwGetTime(), glm::vec3(1.0f, 1.0f, 0.0f));
+        model = glm::rotate(model, (float)glfwGetTime(), glm::vec3(0.0f, 1.0f, 0.0f));
         shader->use();
         GLint modelLoc = glGetUniformLocation(shader->m_ID, "model");
         glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -166,5 +178,6 @@ int main(int argc, char **argv)
     delete shader;
     delete window;
     delete env;
+    delete o;
     return 0;
 }

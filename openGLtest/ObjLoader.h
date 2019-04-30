@@ -13,7 +13,11 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
-#include <boost/algorithm/string.hpp>
+#ifdef __APPLE__
+    #include <boost/algorithm/string.hpp>
+#else
+    #include <boost/algorithm/string.hpp>
+#endif
 #include <vector>
 #include <algorithm>
 
@@ -22,7 +26,7 @@ public:
     
     ObjLoader (const std::string &FileName)
     {
-        std::string path = "./" + FileName + ".obj";
+        std::string path = "./Models/" + FileName + ".obj";
         std::ifstream fileBuffer;
         std::string line;
         unsigned int buffSize = 0;
