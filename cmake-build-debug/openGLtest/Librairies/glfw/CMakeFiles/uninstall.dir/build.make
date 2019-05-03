@@ -42,10 +42,10 @@ RM = C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.7
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2
+CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug
 include openGLtest/Librairies/glfw/CMakeFiles/uninstall.dir/progress.make
 
 openGLtest/Librairies/glfw/CMakeFiles/uninstall:
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw && C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -P C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/cmake_uninstall.cmake
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw && C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -P C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/cmake_uninstall.cmake
 
 uninstall: openGLtest/Librairies/glfw/CMakeFiles/uninstall
 uninstall: openGLtest/Librairies/glfw/CMakeFiles/uninstall.dir/build.make
@@ -66,10 +66,10 @@ openGLtest/Librairies/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : openGLtest/Librairies/glfw/CMakeFiles/uninstall.dir/build
 
 openGLtest/Librairies/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : openGLtest/Librairies/glfw/CMakeFiles/uninstall.dir/clean
 
 openGLtest/Librairies/glfw/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2 C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2.0 C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : openGLtest/Librairies/glfw/CMakeFiles/uninstall.dir/depend
 

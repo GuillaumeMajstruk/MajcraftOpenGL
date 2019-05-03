@@ -23,7 +23,7 @@ include_directories(
         "openGLtest/Librairies/glm"
 )
 
-set(SOURCE_FILES openGLtest/main.cpp openGLtest/shader.hpp openGLtest/ObjLoader.h openGLtest/stb_image.h openGLtest/stb_image.cpp)
+set(SOURCE_FILES openGLtest/main.cpp openGLtest/shader.hpp openGLtest/ObjLoader.h openGLtest/stb_image.h openGLtest/stb_image.cpp openGLtest/Object.hpp openGLtest/DisplayManager.hpp openGLtest/camera.hpp)
 
 add_executable(Majcraft2 ${SOURCE_FILES})
 

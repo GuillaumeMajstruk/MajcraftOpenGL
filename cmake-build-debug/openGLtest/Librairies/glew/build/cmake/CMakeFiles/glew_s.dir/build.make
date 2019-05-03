@@ -42,10 +42,10 @@ RM = C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.7
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2
+CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/depend.make
@@ -59,21 +59,21 @@ include openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/flags.make
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj: openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/flags.make
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj: openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/includes_C.rsp
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj: ../openGLtest/Librairies/glew/src/glew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glew_s.dir\__\__\src\glew.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\src\glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glew_s.dir\__\__\src\glew.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\src\glew.c
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew_s.dir/__/__/src/glew.c.i"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\src\glew.c > CMakeFiles\glew_s.dir\__\__\src\glew.c.i
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\src\glew.c > CMakeFiles\glew_s.dir\__\__\src\glew.c.i
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew_s.dir/__/__/src/glew.c.s"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\src\glew.c -o CMakeFiles\glew_s.dir\__\__\src\glew.c.s
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\src\glew.c -o CMakeFiles\glew_s.dir\__\__\src\glew.c.s
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/glew.rc.obj: openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/flags.make
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/glew.rc.obj: ../openGLtest/Librairies/glew/build/glew.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/glew.rc.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\build\glew.rc CMakeFiles\glew_s.dir\__\glew.rc.obj
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/glew.rc.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\build\glew.rc CMakeFiles\glew_s.dir\__\glew.rc.obj
 
 # Object files for target glew_s
 glew_s_OBJECTS = \
@@ -87,9 +87,9 @@ lib/libglew32d.a: openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/_
 lib/libglew32d.a: openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/__/glew.rc.obj
 lib/libglew32d.a: openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/build.make
 lib/libglew32d.a: openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library ..\..\..\..\..\lib\libglew32d.a"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -P CMakeFiles\glew_s.dir\cmake_clean_target.cmake
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glew_s.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library ..\..\..\..\..\lib\libglew32d.a"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -P CMakeFiles\glew_s.dir\cmake_clean_target.cmake
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glew_s.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/build: lib/libglew32d.a
@@ -97,10 +97,10 @@ openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/build: lib/libglew3
 .PHONY : openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/build
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/clean:
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -P CMakeFiles\glew_s.dir\cmake_clean.cmake
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -P CMakeFiles\glew_s.dir\cmake_clean.cmake
 .PHONY : openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/clean
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2 C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\build\cmake C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake\CMakeFiles\glew_s.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2.0 C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\build\cmake C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake\CMakeFiles\glew_s.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew_s.dir/depend
 

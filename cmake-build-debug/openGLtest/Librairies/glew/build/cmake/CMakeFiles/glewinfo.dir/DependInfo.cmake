@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glew/src/glewinfo.c" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glew/build/cmake/CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glew/src/glewinfo.c" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glew/build/cmake/CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -20,7 +20,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../openGLtest/Librairies/glew/build/cmake/../../include"
   )
 set(CMAKE_DEPENDS_CHECK_RC
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glew/build/glewinfo.rc" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glew/build/cmake/CMakeFiles/glewinfo.dir/__/glewinfo.rc.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glew/build/glewinfo.rc" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glew/build/cmake/CMakeFiles/glewinfo.dir/__/glewinfo.rc.obj"
   )
 
 # Preprocessor definitions for this target.
@@ -36,7 +36,7 @@ set(CMAKE_RC_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew.dir/DependInfo.cmake"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glew/build/cmake/CMakeFiles/glew.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

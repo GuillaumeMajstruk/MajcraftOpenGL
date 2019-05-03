@@ -1,81 +1,81 @@
 Determining if the include file pthread.h exists failed with the following output:
-Change Dir: C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_dfbf1/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_dfbf1.dir\build.make CMakeFiles/cmTC_dfbf1.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dfbf1.dir/CheckIncludeFile.c.obj
-C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_dfbf1.dir\CheckIncludeFile.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_61025/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_61025.dir\build.make CMakeFiles/cmTC_61025.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61025.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_61025.dir\CheckIncludeFile.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
  #include <pthread.h>
                      ^
 compilation terminated.
-CMakeFiles\cmTC_dfbf1.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_dfbf1.dir/CheckIncludeFile.c.obj' failed
-mingw32-make.exe[1]: *** [CMakeFiles/cmTC_dfbf1.dir/CheckIncludeFile.c.obj] Error 1
-mingw32-make.exe[1]: Leaving directory 'C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:120: recipe for target 'cmTC_dfbf1/fast' failed
-mingw32-make.exe: *** [cmTC_dfbf1/fast] Error 2
+CMakeFiles\cmTC_61025.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_61025.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_61025.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_61025/fast' failed
+mingw32-make.exe: *** [cmTC_61025/fast] Error 2
 
 
 Determining if the include file dinput.h exists failed with the following output:
-Change Dir: C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_4abfc/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_4abfc.dir\build.make CMakeFiles/cmTC_4abfc.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4abfc.dir/CheckIncludeFile.c.obj
-C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_4abfc.dir\CheckIncludeFile.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_872a6/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_872a6.dir\build.make CMakeFiles/cmTC_872a6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_872a6.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_872a6.dir\CheckIncludeFile.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
  #include <dinput.h>
                     ^
 compilation terminated.
-CMakeFiles\cmTC_4abfc.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_4abfc.dir/CheckIncludeFile.c.obj' failed
-mingw32-make.exe[1]: *** [CMakeFiles/cmTC_4abfc.dir/CheckIncludeFile.c.obj] Error 1
-mingw32-make.exe[1]: Leaving directory 'C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:120: recipe for target 'cmTC_4abfc/fast' failed
-mingw32-make.exe: *** [cmTC_4abfc/fast] Error 2
+CMakeFiles\cmTC_872a6.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_872a6.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_872a6.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_872a6/fast' failed
+mingw32-make.exe: *** [cmTC_872a6/fast] Error 2
 
 
 Determining if the include file xinput.h exists failed with the following output:
-Change Dir: C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7670f/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7670f.dir\build.make CMakeFiles/cmTC_7670f.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7670f.dir/CheckIncludeFile.c.obj
-C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_7670f.dir\CheckIncludeFile.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_12b41/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_12b41.dir\build.make CMakeFiles/cmTC_12b41.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12b41.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_12b41.dir\CheckIncludeFile.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
  #include <xinput.h>
                     ^
 compilation terminated.
-CMakeFiles\cmTC_7670f.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_7670f.dir/CheckIncludeFile.c.obj' failed
-mingw32-make.exe[1]: *** [CMakeFiles/cmTC_7670f.dir/CheckIncludeFile.c.obj] Error 1
-mingw32-make.exe[1]: Leaving directory 'C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:120: recipe for target 'cmTC_7670f/fast' failed
-mingw32-make.exe: *** [cmTC_7670f/fast] Error 2
+CMakeFiles\cmTC_12b41.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_12b41.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_12b41.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_12b41/fast' failed
+mingw32-make.exe: *** [cmTC_12b41/fast] Error 2
 
 
 Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
-Change Dir: C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8d3df/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8d3df.dir\build.make CMakeFiles/cmTC_8d3df.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d3df.dir/src.c.obj
-C:\MinGW\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_8d3df.dir\src.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_8d3df.exe
-C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8d3df.dir\link.txt --verbose=1
-C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_8d3df.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8d3df.dir/objects.a @CMakeFiles\cmTC_8d3df.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_8d3df.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8d3df.exe -Wl,--out-implib,libcmTC_8d3df.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8d3df.dir\linklibs.rsp
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_67c47/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_67c47.dir\build.make CMakeFiles/cmTC_67c47.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67c47.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_67c47.dir\src.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_67c47.exe
+C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_67c47.dir\link.txt --verbose=1
+C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_67c47.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_67c47.dir/objects.a @CMakeFiles\cmTC_67c47.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_67c47.dir/objects.a -Wl,--no-whole-archive  -o cmTC_67c47.exe -Wl,--out-implib,libcmTC_67c47.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_67c47.dir\linklibs.rsp
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: use the --help option for usage information
 collect2.exe: error: ld returned 1 exit status
-CMakeFiles\cmTC_8d3df.dir\build.make:87: recipe for target 'cmTC_8d3df.exe' failed
-mingw32-make.exe[1]: *** [cmTC_8d3df.exe] Error 1
-mingw32-make.exe[1]: Leaving directory 'C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:120: recipe for target 'cmTC_8d3df/fast' failed
-mingw32-make.exe: *** [cmTC_8d3df/fast] Error 2
+CMakeFiles\cmTC_67c47.dir\build.make:87: recipe for target 'cmTC_67c47.exe' failed
+mingw32-make.exe[1]: *** [cmTC_67c47.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_67c47/fast' failed
+mingw32-make.exe: *** [cmTC_67c47/fast] Error 2
 
 Source file was:
 int main(void) { return 0; }

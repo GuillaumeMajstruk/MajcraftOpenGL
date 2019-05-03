@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/getopt.c" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj"
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/glad_gl.c" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj"
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/glad_vulkan.c" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj"
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/tests/glfwinfo.c" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/getopt.c" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/glad_gl.c" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/glad_vulkan.c" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/tests/glfwinfo.c" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

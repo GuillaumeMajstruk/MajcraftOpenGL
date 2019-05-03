@@ -80,17 +80,17 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/getopt.c
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/getopt.c
 getopt.h
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/getopt.h
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/getopt.h
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/getopt.h
 
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/glad_gl.c
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -100,9 +100,9 @@ string.h
 glad/gl.h
 -
 
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/tinycthread.c
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/tinycthread.c
 tinycthread.h
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/tinycthread.h
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/tinycthread.h
 stdlib.h
 -
 signal.h
@@ -120,7 +120,7 @@ process.h
 sys/timeb.h
 -
 
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/tinycthread.h
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/tinycthread.h
 time.h
 -
 sys/time.h
@@ -130,7 +130,7 @@ pthread.h
 windows.h
 -
 
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/examples/particles.c
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/examples/particles.c
 stdlib.h
 -
 stdio.h

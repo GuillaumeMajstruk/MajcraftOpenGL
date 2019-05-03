@@ -42,10 +42,10 @@ RM = C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.7
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2
+CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Majcraft2.dir/depend.make
@@ -59,30 +59,30 @@ include CMakeFiles/Majcraft2.dir/flags.make
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: CMakeFiles/Majcraft2.dir/flags.make
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: CMakeFiles/Majcraft2.dir/includes_CXX.rsp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Majcraft2.dir\openGLtest\main.cpp.obj -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Majcraft2.dir\openGLtest\main.cpp.obj -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\main.cpp
 
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\main.cpp > CMakeFiles\Majcraft2.dir\openGLtest\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\main.cpp > CMakeFiles\Majcraft2.dir\openGLtest\main.cpp.i
 
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\main.cpp -o CMakeFiles\Majcraft2.dir\openGLtest\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\main.cpp -o CMakeFiles\Majcraft2.dir\openGLtest\main.cpp.s
 
 CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.obj: CMakeFiles/Majcraft2.dir/flags.make
 CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.obj: CMakeFiles/Majcraft2.dir/includes_CXX.rsp
 CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.obj: ../openGLtest/stb_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Majcraft2.dir\openGLtest\stb_image.cpp.obj -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Majcraft2.dir\openGLtest\stb_image.cpp.obj -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\stb_image.cpp
 
 CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\stb_image.cpp > CMakeFiles\Majcraft2.dir\openGLtest\stb_image.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\stb_image.cpp > CMakeFiles\Majcraft2.dir\openGLtest\stb_image.cpp.i
 
 CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Majcraft2.dir/openGLtest/stb_image.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\stb_image.cpp -o CMakeFiles\Majcraft2.dir\openGLtest\stb_image.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\stb_image.cpp -o CMakeFiles\Majcraft2.dir\openGLtest\stb_image.cpp.s
 
 # Object files for target Majcraft2
 Majcraft2_OBJECTS = \
@@ -100,7 +100,7 @@ Majcraft2.exe: lib/libglew32d.dll.a
 Majcraft2.exe: CMakeFiles/Majcraft2.dir/linklibs.rsp
 Majcraft2.exe: CMakeFiles/Majcraft2.dir/objects1.rsp
 Majcraft2.exe: CMakeFiles/Majcraft2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Majcraft2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Majcraft2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Majcraft2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/Majcraft2.dir/clean:
 .PHONY : CMakeFiles/Majcraft2.dir/clean
 
 CMakeFiles/Majcraft2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2 C:\Users\m416099\CLionProjects\Majcraft2 C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles\Majcraft2.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2.0 C:\Users\m416099\CLionProjects\Majcraft2.0 C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles\Majcraft2.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Majcraft2.dir/depend
 

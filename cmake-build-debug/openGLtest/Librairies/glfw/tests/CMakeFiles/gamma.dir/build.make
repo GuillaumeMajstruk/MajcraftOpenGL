@@ -42,10 +42,10 @@ RM = C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.7
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2
+CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/depend.make
@@ -59,30 +59,30 @@ include openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/flags.make
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/flags.make
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/includes_C.rsp
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: ../openGLtest/Librairies/glfw/tests/gamma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gamma.dir\gamma.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\tests\gamma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gamma.dir\gamma.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\tests\gamma.c
 
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gamma.dir/gamma.c.i"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\tests\gamma.c > CMakeFiles\gamma.dir\gamma.c.i
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\tests\gamma.c > CMakeFiles\gamma.dir\gamma.c.i
 
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gamma.dir/gamma.c.s"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\tests\gamma.c -o CMakeFiles\gamma.dir\gamma.c.s
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\tests\gamma.c -o CMakeFiles\gamma.dir\gamma.c.s
 
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/flags.make
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/includes_C.rsp
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: ../openGLtest/Librairies/glfw/deps/glad_gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\glad_gl.c
 
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gamma.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\glad_gl.c > CMakeFiles\gamma.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\glad_gl.c > CMakeFiles\gamma.dir\__\deps\glad_gl.c.i
 
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gamma.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\glad_gl.c -o CMakeFiles\gamma.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\glad_gl.c -o CMakeFiles\gamma.dir\__\deps\glad_gl.c.s
 
 # Object files for target gamma
 gamma_OBJECTS = \
@@ -99,8 +99,8 @@ openGLtest/Librairies/glfw/tests/gamma.exe: openGLtest/Librairies/glfw/src/libgl
 openGLtest/Librairies/glfw/tests/gamma.exe: openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/linklibs.rsp
 openGLtest/Librairies/glfw/tests/gamma.exe: openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/objects1.rsp
 openGLtest/Librairies/glfw/tests/gamma.exe: openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma.exe"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gamma.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma.exe"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gamma.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/build: openGLtest/Librairies/glfw/tests/gamma.exe
@@ -108,10 +108,10 @@ openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/build: openGLtest/Librairi
 .PHONY : openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/build
 
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/clean:
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests && $(CMAKE_COMMAND) -P CMakeFiles\gamma.dir\cmake_clean.cmake
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests && $(CMAKE_COMMAND) -P CMakeFiles\gamma.dir\cmake_clean.cmake
 .PHONY : openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/clean
 
 openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2 C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\tests C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\tests\CMakeFiles\gamma.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2.0 C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\tests C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\tests\CMakeFiles\gamma.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : openGLtest/Librairies/glfw/tests/CMakeFiles/gamma.dir/depend
 

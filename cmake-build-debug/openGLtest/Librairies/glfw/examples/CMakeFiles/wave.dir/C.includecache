@@ -68,7 +68,7 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/glad_gl.c
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -78,7 +78,7 @@ string.h
 glad/gl.h
 -
 
-C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/examples/wave.c
+C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/examples/wave.c
 stdio.h
 -
 stdlib.h

@@ -3,6 +3,9 @@
 
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glew/include/GL/glew.h
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glfw/include/GLFW/glfw3.h
+CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glm/glm.hpp
+CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glm/gtc/matrix_transform.hpp
+CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/DisplayManager.hpp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glm/./detail/setup.hpp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glm/./detail/type_mat2x2.hpp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glm/./detail/type_mat2x2.inl
@@ -205,6 +208,8 @@ CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glm/v
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glm/vec4.hpp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Librairies/glm/vector_relational.hpp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/ObjLoader.h
+CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/Object.hpp
+CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/camera.hpp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/main.cpp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/shader.hpp
 CMakeFiles/Majcraft2.dir/openGLtest/main.cpp.obj: ../openGLtest/stb_image.h

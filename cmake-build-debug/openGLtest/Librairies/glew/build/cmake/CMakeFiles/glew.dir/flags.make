@@ -13,5 +13,5 @@ RC_FLAGS =
 
 RC_DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS
 
-RC_INCLUDES = -IC:\boost_1_70_0 -IC:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\build\cmake\..\..\include 
+RC_INCLUDES = -IC:\boost_1_70_0 -IC:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\build\cmake\..\..\include 
 

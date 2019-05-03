@@ -91,7 +91,52 @@ public:
         }
     }
 
-    void use()
+    void    setInt(const std::string &locationName, int i)
+    {
+        glUniform1i(glGetUniformLocation(this->m_ID, locationName.c_str()), i);
+    }
+
+    void    setFloat(const std::string &locationName, float i)
+    {
+        glUniform1f(glGetUniformLocation(this->m_ID, locationName.c_str()), i);
+    }
+
+    void    setVec2(const std::string &locationName, float x, float y)
+    {
+        glUniform2f(glGetUniformLocation(this->m_ID, locationName.c_str()), x, y);
+    }
+
+    void    setVec2(const std::string &locationName, const glm::vec2 &vec)
+    {
+        glUniform2fv(glGetUniformLocation(this->m_ID, locationName.c_str()), 1, &vec[0]);
+    }
+
+    void    setVec3(const std::string &locationName, float x, float y, float z)
+    {
+        glUniform3f(glGetUniformLocation(this->m_ID, locationName.c_str()), x, y, z);
+    }
+
+    void    setVec3(const std::string &locationName, const glm::vec3 &vec)
+    {
+        glUniform3fv(glGetUniformLocation(this->m_ID, locationName.c_str()), 1, &vec[0]);
+    }
+
+    void    setMat2(const std::string &locationName, const glm::mat2 &mat)
+    {
+        glUniformMatrix4fv(glGetUniformLocation(this->m_ID, locationName.c_str()), 1, GL_FALSE, &mat[0][0]);
+    }
+
+    void    setMat3(const std::string &locationName, const glm::mat3 &mat)
+    {
+        glUniformMatrix4fv(glGetUniformLocation(this->m_ID, locationName.c_str()), 1, GL_FALSE, &mat[0][0]);
+    }
+
+    void    setMat4(const std::string &locationName, const glm::mat4 &mat)
+    {
+        glUniformMatrix4fv(glGetUniformLocation(this->m_ID, locationName.c_str()), 1, GL_FALSE, &mat[0][0]);
+    }
+
+    void    use()
     {
         glUseProgram(m_ID);
     }
@@ -99,56 +144,5 @@ public:
     GLuint  m_ID;
     GLuint  vShader;
     GLuint  fShader;
-
-private:
-
-//    void compileShader(GLuint shader, GLenum ShaderType, char const *shaderSource)
-//    {
-//        shader = glCreateShader(ShaderType);
-//        glShaderSource(shader, 1, &shaderSource, nullptr);
-//        glCompileShader(shader);
-//
-//        GLint success = 0;
-//        GLuint buffsize = 512;
-//        char info[buffsize];
-//        glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
-//        if (!success)
-//        {
-//            glGetShaderInfoLog(shader, buffsize, nullptr, info);
-//            if (ShaderType == GL_VERTEX_SHADER)
-//                std::cout << "ERROR::SHADER::VERTEX::FAILED_TO_COMPILE\n" << info << std::endl;
-//            else
-//                std::cout << "ERROR::SHADER::FRAGMENT::FAILED_TO_COMPILE\n" << info << std::endl;
-//        }
-//        else
-//        {
-//            if (ShaderType == GL_VERTEX_SHADER)
-//                std::cout << "vertex shader successfully compiled" << std::endl;
-//            else
-//                std::cout << "fragment shader successfully compiled" << std::endl;
-//        }
-//    }
-//
-//    void createShaderProgram()
-//    {
-//        m_ID = glCreateProgram();
-//        glAttachShader(m_ID, vShader);
-//        glAttachShader(m_ID, fShader);
-//        glLinkProgram(m_ID);
-//        GLint success;
-//        GLuint buffsize = 512;
-//        char info[buffsize];
-//
-//        glGetProgramiv(m_ID, GL_LINK_STATUS, &success);
-//        if (!success)
-//        {
-//            glGetProgramInfoLog(m_ID, buffsize, nullptr, info);
-//            std::cout << "ERROR::PROGRAM::LINKING_FAILED\n" << info << std::endl;
-//        }
-//        else
-//        {
-//            std::cout << "program successfully linked with shaders" << std::endl;
-//        }
-//    }
 };
 #endif //SHADER_HPP

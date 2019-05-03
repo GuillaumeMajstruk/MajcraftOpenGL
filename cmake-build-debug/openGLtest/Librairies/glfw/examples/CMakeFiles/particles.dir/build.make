@@ -42,10 +42,10 @@ RM = C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.7
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2
+CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/depend.make
@@ -59,63 +59,63 @@ include openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/flags.make
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/particles.c.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/flags.make
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/particles.c.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/includes_C.rsp
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/particles.c.obj: ../openGLtest/Librairies/glfw/examples/particles.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/particles.c.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\particles.dir\particles.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\examples\particles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/particles.c.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\particles.dir\particles.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\examples\particles.c
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/particles.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/particles.dir/particles.c.i"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\examples\particles.c > CMakeFiles\particles.dir\particles.c.i
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\examples\particles.c > CMakeFiles\particles.dir\particles.c.i
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/particles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/particles.dir/particles.c.s"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\examples\particles.c -o CMakeFiles\particles.dir\particles.c.s
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\examples\particles.c -o CMakeFiles\particles.dir\particles.c.s
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/glfw.rc.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/flags.make
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/glfw.rc.obj: ../openGLtest/Librairies/glfw/examples/glfw.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/glfw.rc.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\examples\glfw.rc CMakeFiles\particles.dir\glfw.rc.obj
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/glfw.rc.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\examples\glfw.rc CMakeFiles\particles.dir\glfw.rc.obj
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/flags.make
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/includes_C.rsp
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj: ../openGLtest/Librairies/glfw/deps/tinycthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\particles.dir\__\deps\tinycthread.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\tinycthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\particles.dir\__\deps\tinycthread.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\tinycthread.c
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/particles.dir/__/deps/tinycthread.c.i"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\tinycthread.c > CMakeFiles\particles.dir\__\deps\tinycthread.c.i
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\tinycthread.c > CMakeFiles\particles.dir\__\deps\tinycthread.c.i
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/particles.dir/__/deps/tinycthread.c.s"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\tinycthread.c -o CMakeFiles\particles.dir\__\deps\tinycthread.c.s
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\tinycthread.c -o CMakeFiles\particles.dir\__\deps\tinycthread.c.s
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/flags.make
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/includes_C.rsp
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj: ../openGLtest/Librairies/glfw/deps/getopt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\particles.dir\__\deps\getopt.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\particles.dir\__\deps\getopt.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\getopt.c
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/particles.dir/__/deps/getopt.c.i"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\getopt.c > CMakeFiles\particles.dir\__\deps\getopt.c.i
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\getopt.c > CMakeFiles\particles.dir\__\deps\getopt.c.i
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/particles.dir/__/deps/getopt.c.s"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\getopt.c -o CMakeFiles\particles.dir\__\deps\getopt.c.s
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\getopt.c -o CMakeFiles\particles.dir\__\deps\getopt.c.s
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/flags.make
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/includes_C.rsp
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj: ../openGLtest/Librairies/glfw/deps/glad_gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\particles.dir\__\deps\glad_gl.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\particles.dir\__\deps\glad_gl.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\glad_gl.c
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/particles.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\glad_gl.c > CMakeFiles\particles.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\glad_gl.c > CMakeFiles\particles.dir\__\deps\glad_gl.c.i
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/particles.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\glad_gl.c -o CMakeFiles\particles.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\glad_gl.c -o CMakeFiles\particles.dir\__\deps\glad_gl.c.s
 
 # Object files for target particles
 particles_OBJECTS = \
@@ -138,8 +138,8 @@ openGLtest/Librairies/glfw/examples/particles.exe: openGLtest/Librairies/glfw/sr
 openGLtest/Librairies/glfw/examples/particles.exe: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/linklibs.rsp
 openGLtest/Librairies/glfw/examples/particles.exe: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/objects1.rsp
 openGLtest/Librairies/glfw/examples/particles.exe: openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable particles.exe"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\particles.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable particles.exe"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\particles.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/build: openGLtest/Librairies/glfw/examples/particles.exe
@@ -147,10 +147,10 @@ openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/build: openGLtest/L
 .PHONY : openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/build
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/clean:
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples && $(CMAKE_COMMAND) -P CMakeFiles\particles.dir\cmake_clean.cmake
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples && $(CMAKE_COMMAND) -P CMakeFiles\particles.dir\cmake_clean.cmake
 .PHONY : openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/clean
 
 openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2 C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\examples C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glfw\examples\CMakeFiles\particles.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2.0 C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\examples C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glfw\examples\CMakeFiles\particles.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : openGLtest/Librairies/glfw/examples/CMakeFiles/particles.dir/depend
 

@@ -13,5 +13,5 @@ RC_FLAGS =
 
 RC_DEFINES = 
 
-RC_INCLUDES = -IC:\boost_1_70_0 -IC:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps\mingw -IC:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\deps -IC:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glfw\include 
+RC_INCLUDES = -IC:\boost_1_70_0 -IC:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps\mingw -IC:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\deps -IC:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glfw\include 
 

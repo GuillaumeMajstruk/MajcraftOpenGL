@@ -4,7 +4,7 @@
 openGLtest/Librairies/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj
  ../openGLtest/Librairies/glfw/deps/glad/gl.h
  ../openGLtest/Librairies/glfw/deps/glad/khrplatform.h
- C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/glad_gl.c
+ C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/glad_gl.c
 openGLtest/Librairies/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.obj
  ../openGLtest/Librairies/glfw/deps/glad/gl.h
  ../openGLtest/Librairies/glfw/deps/glad/khrplatform.h
@@ -12,6 +12,6 @@ openGLtest/Librairies/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.obj
  ../openGLtest/Librairies/glfw/deps/stb_image_write.h
  ../openGLtest/Librairies/glfw/include/GLFW/glfw3.h
  ../openGLtest/Librairies/glfw/include/GLFW/glfw3native.h
- C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/examples/offscreen.c
+ C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/examples/offscreen.c
 openGLtest/Librairies/glfw/examples/CMakeFiles/offscreen.dir/glfw.rc.obj
- C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/examples/glfw.rc
+ C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/examples/glfw.rc

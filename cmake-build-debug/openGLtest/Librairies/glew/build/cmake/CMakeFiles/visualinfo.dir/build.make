@@ -42,10 +42,10 @@ RM = C:\Users\m416099\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.7
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2
+CMAKE_SOURCE_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/depend.make
@@ -59,21 +59,21 @@ include openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/flags.m
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj: openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/flags.make
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj: openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/includes_C.rsp
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj: ../openGLtest/Librairies/glew/src/visualinfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\src\visualinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.obj   -c C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\src\visualinfo.c
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.i"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\src\visualinfo.c > CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.i
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\src\visualinfo.c > CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.i
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.s"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\src\visualinfo.c -o CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.s
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\src\visualinfo.c -o CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.s
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj: openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/flags.make
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj: ../openGLtest/Librairies/glew/build/visualinfo.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\build\visualinfo.rc CMakeFiles\visualinfo.dir\__\visualinfo.rc.obj
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\build\visualinfo.rc CMakeFiles\visualinfo.dir\__\visualinfo.rc.obj
 
 # Object files for target visualinfo
 visualinfo_OBJECTS = \
@@ -90,8 +90,8 @@ bin/visualinfo.exe: lib/libglew32d.dll.a
 bin/visualinfo.exe: openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/linklibs.rsp
 bin/visualinfo.exe: openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/objects1.rsp
 bin/visualinfo.exe: openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ..\..\..\..\..\bin\visualinfo.exe"
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\visualinfo.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ..\..\..\..\..\bin\visualinfo.exe"
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\visualinfo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/build: bin/visualinfo.exe
@@ -99,10 +99,10 @@ openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/build: bin/visu
 .PHONY : openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/build
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/clean:
-	cd /d C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -P CMakeFiles\visualinfo.dir\cmake_clean.cmake
+	cd /d C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake && $(CMAKE_COMMAND) -P CMakeFiles\visualinfo.dir\cmake_clean.cmake
 .PHONY : openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/clean
 
 openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2 C:\Users\m416099\CLionProjects\Majcraft2\openGLtest\Librairies\glew\build\cmake C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake C:\Users\m416099\CLionProjects\Majcraft2\cmake-build-debug\openGLtest\Librairies\glew\build\cmake\CMakeFiles\visualinfo.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\m416099\CLionProjects\Majcraft2.0 C:\Users\m416099\CLionProjects\Majcraft2.0\openGLtest\Librairies\glew\build\cmake C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake C:\Users\m416099\CLionProjects\Majcraft2.0\cmake-build-debug\openGLtest\Librairies\glew\build\cmake\CMakeFiles\visualinfo.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : openGLtest/Librairies/glew/build/cmake/CMakeFiles/visualinfo.dir/depend
 

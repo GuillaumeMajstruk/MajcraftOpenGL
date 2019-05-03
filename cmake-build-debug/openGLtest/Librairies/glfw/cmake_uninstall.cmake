@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/install_manifest.txt" files)
+file(READ "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

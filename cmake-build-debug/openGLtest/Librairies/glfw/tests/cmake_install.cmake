@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/tests
+# Install script for directory: C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

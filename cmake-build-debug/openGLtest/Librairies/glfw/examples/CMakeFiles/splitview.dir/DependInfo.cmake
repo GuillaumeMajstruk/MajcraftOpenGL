@@ -5,8 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/deps/glad_gl.c" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj"
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/examples/splitview.c" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/examples/CMakeFiles/splitview.dir/splitview.c.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/deps/glad_gl.c" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/examples/splitview.c" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/examples/CMakeFiles/splitview.dir/splitview.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../openGLtest/Librairies/glfw/include"
   )
 set(CMAKE_DEPENDS_CHECK_RC
-  "C:/Users/m416099/CLionProjects/Majcraft2/openGLtest/Librairies/glfw/examples/glfw.rc" "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/examples/CMakeFiles/splitview.dir/glfw.rc.obj"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/openGLtest/Librairies/glfw/examples/glfw.rc" "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/examples/CMakeFiles/splitview.dir/glfw.rc.obj"
   )
 
 # The include file search paths:
@@ -31,7 +31,7 @@ set(CMAKE_RC_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/m416099/CLionProjects/Majcraft2/cmake-build-debug/openGLtest/Librairies/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/m416099/CLionProjects/Majcraft2.0/cmake-build-debug/openGLtest/Librairies/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
